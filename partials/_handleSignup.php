@@ -25,12 +25,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
           $result = mysqli_query($conn, $sql);
           if ($result){
               $showAlert = true;
-              header("Location: /OnlineFoodDelivery/index.php?signupsuccess=true");
+              header("Location: https://opd.sastatech.store/index.php?signupsuccess=true");
           }
       }
       else{
           $showError = "Passwords do not match";
-          header("Location: /OnlineFoodDelivery/index.php?signupsuccess=false&error=$showError");
+          header("Location: https://opd.sastatech.store/index.php?signupsuccess=false&error=$showError");
       }
     }
 }

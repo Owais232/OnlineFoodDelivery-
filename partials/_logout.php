@@ -9,5 +9,5 @@ unset($_SESSION["userId"]);
 // session_unset();
 // session_destroy();
 
-header("location: /OnlineFoodDelivery/index.php");
+header("location: https://opd.sastatech.store/");
 ?>

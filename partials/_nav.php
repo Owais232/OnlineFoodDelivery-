@@ -9,9 +9,6 @@ else{
   $loggedin = false;
   $userId = 0;
 }
-$loggedin= true;
-  $userId = $_SESSION['userId'];
-  $username = $_SESSION['username'];
 
 $sql = "SELECT * FROM `sitedetail`";
 $result = mysqli_query($conn, $sql);
